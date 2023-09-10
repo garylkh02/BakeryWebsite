@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../CSS/dan.css">
+<title>The Moon Bakery</title>
+<meta charset="utf-8">
+</head>
+<body>
+
+<div class="bar">
+<div class="navbar" id="navid">
+    <a href="../moonbakery.html" class="mb" id="12"><img src="../Images/themoonbakery.png"  alt="The Moon Bakery Logo" width="300" height="65"></a>
+    <div class="qw">
+    <h4> </h4>
+    <a href="../moonbakery.html" class="home">Home</a>
+    <a href="../Products/shop.html">All Products</a>
+    <div class="dd">
+        <button class="dropbtn">Shop By &#10534</button>
+        <div class="sb">
+            <a href="../Cake/cake.html" class="top">Cakes</a>
+            <a href="../Croi/croi.html" class="sharp">Croissants</a>
+            <a href="../Danishes/dan.html" class="sharp">Danishes</a>
+            <a href="../Macaron/mac.html" class="sharp">Macarons</a>
+            <a href="../Strudels/stru.html" class="sharp">Strudels</a>
+            <a href="../Tart/tart.html" class="bottom">Cheese Tarts</a>
+        </div>
+    </div>
+    <a href="../About Us/mbau.html">About Us</a>
+    <a href="../Store Locations/store.html">Store Locations</a>
+    <a href="../Contact/contact.html">Contact</a>
+    <a class="c" href="../Cart/cart.html">View Cart / Sign Up</a>
+    <a href="javascript:void(0);" style="font-size:57px;" class="ddicon" onclick="myFunction()">&#9776;</a>
+    </div>
+</div>
+</div>
+
+<div style="padding-left:5px">
+    <h4>**Order by 12pm to get your fresh-baked pastry delivered the next day! &nbsp;| &nbsp;Free Shipping on orders over RM30!</h4>
+    <h1>Full Moon Macaron</h1>
+    
+    <style>
+        .fmac{border-radius: 15px 50px;
+    padding: 20px; 
+    width: 350px;
+    height: 430px; 
+    box-shadow: 7px 7px 5px rgb(202, 199, 199);}
+    </style>
+
+<div class="row">
+    <div class="col">
+        <img src="../Images/durianmac.webp" class="fmac" alt="Durian Macaron" width="350" height="430">
+        <br>
+        <i><b><h3>RM5.00 each</h3></b></i>
+    </div>
+</div>
+<br>
+
+    
+    <form>
+        <label for="quantity">Quantity: </label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10">
+    </form>
+    <br>
+    <button class="btn addtocart">Add To Cart</button>
+    
+    <p>Size: 5cm (diameter) +/-</p>
+    <p>Weight: 40g +/-</p>
+    <p>Ingredients: Sugar, Eggs, Almond Powder, Local Musang King Durian Pulp</p>
+    <p>Care Guide: Please keep the macarons at room temperature and consume them within one day.</p>
+    
+<script>
+    function myFunction() {
+      var b = document.getElementById("navid");
+      if (b.className === "navbar") {
+        b.className += " responsive";
+      } else {
+        b.className = "navbar";
+      }
+    }
+</script>
+<br>
+</div>
+<footer>
+  <br>
+  <br>
+  <br>
+<div class="footer">
+  <div class="fd">
+  <div class="list">
+    <h5>THE MOON BAKERY</h5>
+    <ul>
+      <li><a href="../moonbakery.html">Home</a></li>  
+      <li><a href="../About Us/mbau.html">About Us</a></li>
+      <li><a href="../Store Locations/store.html">Store Locations</a></li>
+      <li><a href="../Contact/contact.html">Contact Us</a></li>
+      <li><a href="../Products/pricingt.html">Pricing Table</a></li>
+    </ul>
+  </div>
+  <div class="list">
+    <h5>PRODUCTS</h5>
+    <ul>
+      <li><a href="../Cake/cake.html">Cakes</a></li>
+      <li><a href="../Tart/tart.html">Cheese Tarts</a></li>
+      <li><a href="../Croi/croi.html">Croissants</a></li>
+      <li><a href="../Danishes/dan.html">Danishes</a></li>
+      <li><a href="../Macaron/mac.html">Macarons</a></li>
+      <li><a href="../Strudels/stru.html">Strudels</a></li>
+    </ul>
+  </div>
+  <div class="list">
+    <h5>PROFILE</h5>
+    <ul>
+      <li><a href="../Cart/cart.html">View Cart</a></li>
+      <li><a href="../Cart/cart.html">Sign In</a></li>
+      <li><a href="../Cart/cart.html">Sign Up</a></li>
+    </ul>
+  </div>
+
+  
+  <div class="list smedia">
+    <h5>SOCIAL MEDIA</h5>
+    <ul>
+      <li><a href="dummy"><img src="../Images/fb.png" width="32" style="width: 32px;"></li></a>
+      <li><a href="dummy"><img src="../Images/insta.png" width="32" style="width: 32px;"></li></a>
+    </ul>
+  </div>
+<div class="cf"></div>
+<small><i>&nbsp; &nbsp;Copyright &copy; 2022 The Moon Bakery</i></small>
+</div>
+</div>
+</footer>
+</body>
+</html>
